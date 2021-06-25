@@ -14,8 +14,7 @@
 import json                             # read in JSON files
 from matplotlib import pyplot as pl     # plotting facilities
 import argparse                         # parse command line arguments
-#import glob
-from cycler import cycler
+from cycler import cycler               # cycles through colours for plotting
 
 
 # get parameters from user input:
