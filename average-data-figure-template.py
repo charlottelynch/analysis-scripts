@@ -120,9 +120,13 @@ def average_by_bin(xbin_y_series):
     # Below sorts the lists in order of bin value. 
     return sorted(unsorted_averages)
 
-# Test:
+# Test1:
 #average_by_bin([(4.35,4.4,6),(4.37,4.4,6.5)])
-# Result: [(4.4, 6.25)]    
+# Result: [(4.4, 6.25)]
+
+#Test2:
+#average_by_bin([(4.37,4.4,6.5),(4.35,4.4,6)])
+# Result: [(4.4, 6.25)]
         
 
 def load_bin_and_average(file_name,yaxis_name,bin_width,x_min,x_max):
